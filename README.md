@@ -13,5 +13,8 @@ langchain_text_splitters==0.3.2
 sentence_transforers==3.0.1
 gradio==5.11.0
 ```
-python>=3.10
-## 效果如下
+python>=3.10, 模型可在魔搭社区搜索
+https://www.modelscope.cn/models
+请根据自己的计算机配置, 合理选择模型。
+## 效果展示
+![](/figure/1.png)

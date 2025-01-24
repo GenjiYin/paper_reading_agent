@@ -16,6 +16,8 @@ gradio==5.11.0
 python>=3.10, 模型可在魔搭社区搜索
 https://www.modelscope.cn/models
 请根据自己的计算机配置, 合理选择模型(优先搜索指令模型: 带有instruct字样的模型, 便于其他智能体任务的开发工作)。
+关于嵌入模型, 大家可以选择m3e (https://modelscope.cn/models/AI-ModelScope/m3e-large).
+关于翻译模型, 大家可以使用opus-mt-zh-en (https://www.modelscope.cn/models/moxying/opus-mt-zh-en).
 ## 效果展示
 <div style="display: flex; justify-content: space-between;">
     <img src="/figure/2.jpg" alt="Image 1" style="width: 45%;"/>
@@ -27,6 +29,5 @@ https://www.modelscope.cn/models
 2. 打开gradio_UI.py文件, 重点关注14行到24行代码:
 ![](/figure/3.png)
 3. 运行gradio_UI.py文件即可出发对话网页. 
-
 
 ## 项目原理

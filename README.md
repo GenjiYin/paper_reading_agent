@@ -4,20 +4,14 @@
 
 需要安装的库如下: 
 ```
-
 transformers==4.47.1
-
 lxml==5.3.0
-
 numpy==2.0.1
-
 pandas==2.2.3
-
 langchain==0.3.10
-
 langchain_text_splitters==0.3.2
-
 sentence_transforers==3.0.1
-
 gradio==5.11.0
 ```
+python>=3.10
+## 效果如下

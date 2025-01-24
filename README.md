@@ -13,10 +13,14 @@ langchain_text_splitters==0.3.2
 sentence_transforers==3.0.1
 gradio==5.11.0
 ```
-python>=3.10, 模型可在魔搭社区搜索
+python>=3.10, 支持使用自己私有大模型(前提是需要用transformers库封装), 也可在魔搭社区搜索一些开源的大模型: 
 https://www.modelscope.cn/models
-请根据自己的计算机配置, 合理选择模型(优先搜索指令模型: 带有instruct字样的模型, 便于其他智能体任务的开发工作)。
+请根据自己的计算机配置, 合理选择模型. 
+
+语言大模型方面优先搜索指令模型: 带有instruct字样的模型. 便于其他智能体任务的开发工作.
+
 关于嵌入模型, 大家可以选择m3e (https://modelscope.cn/models/AI-ModelScope/m3e-large).
+
 关于翻译模型, 大家可以使用opus-mt-zh-en (https://www.modelscope.cn/models/moxying/opus-mt-zh-en).
 ## 效果展示
 <div style="display: flex; justify-content: space-between;">

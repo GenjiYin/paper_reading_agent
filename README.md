@@ -24,8 +24,8 @@ https://www.modelscope.cn/models
 
 ## 使用手册
 1. 将pdf放入static文件夹下;
-2. 打开gradio_UI.py文件, 重点关注14行到19行代码:
-
+2. 打开gradio_UI.py文件, 重点关注14行到24行代码:
+![](/figure/3.png)
 
 
 ## 项目原理

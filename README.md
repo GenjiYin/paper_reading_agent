@@ -41,3 +41,4 @@ https://www.modelscope.cn/models
 <div align=center>
 <img src="/figure/4.png" />
 </div>
+我们将提示词进行向量编码化

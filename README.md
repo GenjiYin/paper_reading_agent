@@ -37,5 +37,5 @@ gradio==5.11.0
 <div align=center>
 <img src="/figure/3.png" />
 </div>
-3. 运行gradio_UI.py文件即可出发对话网页. 
+3. 运行gradio_UI.py文件即可触发对话网页, 同时项目生成的嵌入矩阵和文本块会被保存在data_save文件夹下. 
 

@@ -14,14 +14,14 @@ langchain_text_splitters==0.3.2
 sentence_transforers==3.0.1
 gradio==5.11.0
 ```
-- `Python 版本要求`：python>=3.10
-- `支持私有大模型`：如果使用自己的私有大模型，请确保使用 transformers 库进行封装。
-- `开源大模型资源`：你可以在魔搭社区搜索适合的开源大模型，以满足项目需求: https://www.modelscope.cn/models
+- **Python 版本要求**：python>=3.10
+- **支持私有大模型**：如果使用自己的私有大模型，请确保使用 transformers 库进行封装。
+- **开源大模型资源**：你可以在魔搭社区搜索适合的开源大模型，以满足项目需求: https://www.modelscope.cn/models
 
 ### 模型选择建议
-1. `语言大模型`：优先选择带有“instruct”字样的指令模型，便于后续智能体任务的开发;
-2. `嵌入模型`: 推荐使用m3e嵌入模型: https://modelscope.cn/models/AI-ModelScope/m3e-large;
-3. `翻译模型`: 推荐使用opus-mt-zh-en项目: https://www.modelscope.cn/models/moxying/opus-mt-zh-en.
+1. **语言大模型**：优先选择带有“instruct”字样的指令模型，便于后续智能体任务的开发;
+2. **嵌入模型**: 推荐使用m3e嵌入模型: https://modelscope.cn/models/AI-ModelScope/m3e-large;
+3. **翻译模型**: 推荐使用opus-mt-zh-en项目: https://www.modelscope.cn/models/moxying/opus-mt-zh-en.
 
 请根据自己的计算机配置合理选择模型，以确保项目运行的流畅性。
 

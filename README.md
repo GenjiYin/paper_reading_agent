@@ -23,7 +23,7 @@ https://www.modelscope.cn/models
 
 关于翻译模型, 大家可以使用opus-mt-zh-en (https://www.modelscope.cn/models/moxying/opus-mt-zh-en).
 ## 效果展示
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: space-between;", align=center>
     <img src="/figure/2.jpg" alt="Image 1" style="width: 45%;"/>
     <img src="/figure/1.jpg" alt="Image 2" style="width: 45%;"/>
 </div>
@@ -31,7 +31,13 @@ https://www.modelscope.cn/models
 ## 使用手册
 1. 将pdf放入static文件夹下;
 2. 打开gradio_UI.py文件, 重点关注14行到24行代码:
-![](/figure/3.png)
+<div align=center>
+<img src="/figure/3.png" />
+</div>
 3. 运行gradio_UI.py文件即可出发对话网页. 
 
 ## 项目原理
+
+<div align=center>
+<img src="/figure/4.png" />
+</div>
